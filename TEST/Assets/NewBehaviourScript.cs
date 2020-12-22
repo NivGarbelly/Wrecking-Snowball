@@ -10,9 +10,12 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void Update()
     {
-        transform.localScale = transform.localScale * 1.01f;
+        // transform.localScale = transform.localScale * 1.5f
     }
-
+    private void FixedUpdate()
+    {
+            transform.localScale = (transform.localScale * 1.001f);
+    }
     private void OnTriggerEnter(Collider other)
     {
         otherOBJ = other.gameObject;
@@ -22,6 +25,6 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void Stick()
     {
-        otherOBJ.transform.SetParent(thisOBJ.transform,true);
+       // otherOBJ.transform.SetParent(thisOBJ.transform,true);
     }
 }
