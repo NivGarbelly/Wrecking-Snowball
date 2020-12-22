@@ -3,11 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class SnowBall : MonoBehaviour
 {
     private GameObject thisOBJ;
     private GameObject otherOBJ;
 
+    public StickToSnowball stickObjectScript;
+    public float radius; 
+
+
+    private void Start()
+    {
+       
+    }
     private void Update()
     {
         // transform.localScale = transform.localScale * 1.5f
@@ -23,6 +31,22 @@ public class NewBehaviourScript : MonoBehaviour
         Invoke("Stick",0.25f);
     }
 
+    public void Destroy()
+    {
+        Debug.Log("die");
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        stickObjectScript.UnStick();
+        Destroy(this.gameObject);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
+    
+        
+    
     private void Stick()
     {
        // otherOBJ.transform.SetParent(thisOBJ.transform,true);

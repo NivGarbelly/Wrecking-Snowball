@@ -18,10 +18,7 @@ public class StickToSnowball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            UnStick();
-        }
+        
     }
     private void OnTriggerEnter(Collider other)
     {
