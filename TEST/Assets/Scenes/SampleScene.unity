@@ -154,8 +154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64d6ab0ec3965940b19d525819492b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stickObjectScript: {fileID: 1948485997}
-  radius: 0.75
+  radius: 2.01
+  explotionForce: 600
 --- !u!54 &163342076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -774,6 +774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824048, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -787,7 +792,7 @@ PrefabInstance:
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.07
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
@@ -847,7 +852,12 @@ PrefabInstance:
     - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be67bfa5b295e024e940f5ca6749378b, type: 3}
@@ -1072,6 +1082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824048, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1085,7 +1100,7 @@ PrefabInstance:
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.07
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
@@ -1145,7 +1160,12 @@ PrefabInstance:
     - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be67bfa5b295e024e940f5ca6749378b, type: 3}
@@ -1194,10 +1214,9 @@ GameObject:
   - component: {fileID: 2131783332}
   - component: {fileID: 2131783331}
   - component: {fileID: 2131783330}
-  - component: {fileID: 2131783335}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1292,19 +1311,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131783335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131783329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58b14146552d8e64e99cf04796216845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  snowBallScript: {fileID: 163342075}
 --- !u!1001 &4249123618561123683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1316,6 +1322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824048, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
@@ -1390,7 +1401,12 @@ PrefabInstance:
     - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be67bfa5b295e024e940f5ca6749378b, type: 3}

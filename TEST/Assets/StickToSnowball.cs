@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StickToSnowball : MonoBehaviour
+public class StickToSnowball : MonoBehaviour, StickObjects_INT
 {
 
     private FixedJoint fixJoint;
     private GameObject snowBall;
+    private Rigidbody rb;
 
 
     // Start is called before the first frame update
     void Start()
     {
         fixJoint = GetComponent<FixedJoint>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -40,10 +42,11 @@ public class StickToSnowball : MonoBehaviour
     public void UnStick()
     {
         Debug.Log("work");
-        fixJoint.breakForce = 1f;
-        fixJoint.breakTorque = 1f;
-        fixJoint.enableCollision = true;
+        rb.mass = 1f;
+        fixJoint.breakForce = 10f;
+        fixJoint.breakTorque = 10f;
         var col = GetComponent<Collider>();
         col.isTrigger = false;
+        
     }
 }

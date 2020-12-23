@@ -5,11 +5,10 @@ using UnityEngine;
 
 public class SnowBall : MonoBehaviour
 {
-    private GameObject thisOBJ;
-    private GameObject otherOBJ;
-
-    public StickToSnowball stickObjectScript;
-    public float radius; 
+    
+   
+    public float radius;
+    public float explotionForce;
 
 
     private void Start()
@@ -18,25 +17,34 @@ public class SnowBall : MonoBehaviour
     }
     private void Update()
     {
-        // transform.localScale = transform.localScale * 1.5f
+       
     }
     private void FixedUpdate()
     {
-            transform.localScale = (transform.localScale * 1.001f);
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        otherOBJ = other.gameObject;
-        thisOBJ = this.gameObject;
-        Invoke("Stick",0.25f);
+        transform.localScale = (transform.localScale * 1.001f);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Destroy();
+        }
+    }
     public void Destroy()
     {
         Debug.Log("die");
 
-        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
-        stickObjectScript.UnStick();
+        Collider[] stickObjects = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider objects in stickObjects)
+        {
+            objects.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
+            Rigidbody rb = objects.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddExplosionForce(explotionForce, transform.position, radius);
+            }
+        }
         Destroy(this.gameObject);
     }
 
@@ -47,8 +55,5 @@ public class SnowBall : MonoBehaviour
     
         
     
-    private void Stick()
-    {
-       // otherOBJ.transform.SetParent(thisOBJ.transform,true);
-    }
+    
 }
