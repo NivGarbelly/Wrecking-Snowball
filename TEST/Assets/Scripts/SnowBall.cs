@@ -30,6 +30,11 @@ public class SnowBall : MonoBehaviour
         {
             Destroy();
         }
+
+        if (collision.gameObject.CompareTag("Collect"))
+        {
+
+        }
     }
     public void Destroy()
     {
