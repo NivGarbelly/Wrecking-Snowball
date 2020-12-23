@@ -2,14 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SnowBall : MonoBehaviour
 {
-    
-   
-    public float radius;
-    public float explotionForce;
 
+
+    [SerializeField] float radius;
+    [SerializeField] float explotionForce;
+    [SerializeField] float objectsAmount = 0;
+    [SerializeField] Text scoreText;
+    
 
     private void Start()
     {
@@ -31,11 +34,18 @@ public class SnowBall : MonoBehaviour
             Destroy();
         }
 
-        if (collision.gameObject.CompareTag("Collect"))
-        {
+       
+    }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Collect"))
+        {
+            AddScore();
         }
     }
+
+
     public void Destroy()
     {
         Debug.Log("die");
@@ -53,6 +63,11 @@ public class SnowBall : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    void AddScore()
+    {
+        objectsAmount++;
+        scoreText.text = objectsAmount.ToString();
+    }
     void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, radius);
