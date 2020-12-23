@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SnowBall : MonoBehaviour
+public class SnowBall : MonoBehaviour, 
 {
 
 
@@ -49,8 +49,9 @@ public class SnowBall : MonoBehaviour
     public void Destroy()
     {
         Debug.Log("die");
-
+        
         Collider[] stickObjects = Physics.OverlapSphere(transform.position, radius);
+
         foreach (Collider objects in stickObjects)
         {
             objects.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
@@ -60,6 +61,7 @@ public class SnowBall : MonoBehaviour
                 rb.AddExplosionForce(explotionForce, transform.position, radius);
             }
         }
+
         Destroy(this.gameObject);
     }
 
