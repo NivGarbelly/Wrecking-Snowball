@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SnowBall : MonoBehaviour, 
+public class SnowBall : MonoBehaviour 
 {
 
-
+    public GameManager gameManager;
     [SerializeField] float radius;
     [SerializeField] float explotionForce;
-    [SerializeField] float objectsAmount = 0;
+    public int objectsAmount = 0;
     [SerializeField] Text scoreText;
     
 
@@ -18,10 +18,12 @@ public class SnowBall : MonoBehaviour,
     {
        
     }
+
     private void Update()
     {
        
     }
+
     private void FixedUpdate()
     {
         transform.localScale = (transform.localScale * 1.001f);
@@ -42,6 +44,12 @@ public class SnowBall : MonoBehaviour,
         if (other.gameObject.CompareTag("Collect"))
         {
             AddScore();
+        }
+
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            gameManager.GameWon();
+            gameManager.finishObjectAmount = objectsAmount;
         }
     }
 
