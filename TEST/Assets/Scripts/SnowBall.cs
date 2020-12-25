@@ -1,39 +1,26 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SnowBall : MonoBehaviour
 {
-    
-   
     public float radius;
     public float explotionForce;
+    private Rigidbody _rigidbody;
 
+    private void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
 
-    private void Start()
-    {
-       
-    }
-    private void Update()
-    {
-       
-    }
     private void FixedUpdate()
     {
-        transform.localScale = (transform.localScale * 1.001f);
+        transform.localScale = (transform.localScale * 1.003f);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            Destroy();
-        }
-
-        if (collision.gameObject.CompareTag("Collect"))
-        {
-
+            transform.localScale = (transform.localScale * 0.90f);
         }
     }
     public void Destroy()
@@ -44,21 +31,15 @@ public class SnowBall : MonoBehaviour
         foreach (Collider objects in stickObjects)
         {
             objects.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
-            Rigidbody rb = objects.GetComponent<Rigidbody>();
-            if (rb != null)
+            if (_rigidbody != null)
             {
-                rb.AddExplosionForce(explotionForce, transform.position, radius);
+                _rigidbody.AddExplosionForce(explotionForce, transform.position, radius);
             }
         }
         Destroy(this.gameObject);
     }
-
-    void OnDrawGizmosSelected()
+    void OnDrawGizmosSelected()z
     {
         Gizmos.DrawWireSphere(transform.position, radius);
     }
-    
-        
-    
-    
 }
