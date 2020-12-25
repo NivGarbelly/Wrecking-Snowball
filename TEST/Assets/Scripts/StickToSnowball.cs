@@ -10,6 +10,7 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     private Rigidbody rb;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
