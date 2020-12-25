@@ -18,15 +18,6 @@ public class SnowBall : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.A))
-        {
-            _rigidbody.AddForce(-Vector3.right*steerForce* Time.fixedDeltaTime);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            _rigidbody.AddForce(Vector3.right*steerForce* Time.fixedDeltaTime);
-        }
-
         _rigidbody.AddForce(Vector3.forward * speed*2);
         speed = speed + speedChangeForce;
         transform.localScale = new Vector3(speed, speed, speed)/10;
