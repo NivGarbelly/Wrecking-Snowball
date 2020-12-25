@@ -5,22 +5,41 @@ public class SnowBall : MonoBehaviour
     public float radius;
     public float explotionForce;
     private Rigidbody _rigidbody;
+    public float steerForce =2;
+    public float speed=1;
+    public float speedChangeForce = 0.01f;
+    public FloatingJoystick variableJoystick;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        speed=1;
     }
 
     private void FixedUpdate()
     {
-        transform.localScale = (transform.localScale * 1.003f);
+        if (Input.GetKey(KeyCode.A))
+        {
+            _rigidbody.AddForce(-Vector3.right*steerForce* Time.fixedDeltaTime);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            _rigidbody.AddForce(Vector3.right*steerForce* Time.fixedDeltaTime);
+        }
+
+        _rigidbody.AddForce(Vector3.forward * speed*2);
+        speed = speed + speedChangeForce;
+        transform.localScale = new Vector3(speed, speed, speed)/10;
+        _rigidbody.mass = speed;
+        Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
+        _rigidbody.AddForce(direction * steerForce * Time.fixedDeltaTime, ForceMode.VelocityChange);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            transform.localScale = (transform.localScale * 0.90f);
+            Destroy(collision.gameObject);
         }
     }
     public void Destroy()
@@ -38,7 +57,7 @@ public class SnowBall : MonoBehaviour
         }
         Destroy(this.gameObject);
     }
-    void OnDrawGizmosSelected()z
+    void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, radius);
     }
