@@ -9,6 +9,8 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     private GameObject snowBall;
     private Rigidbody rb;
 
+    public GameObject objectAmountText;
+
 
 
     // Start is called before the first frame update

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4249123619943824055}
   - component: {fileID: 4249123619943824059}
   - component: {fileID: 2919910580865108634}
-  - component: {fileID: 2083986216023930464}
+  - component: {fileID: 6702287319673082247}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Object
   m_TagString: Collect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,7 +127,7 @@ FixedJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &2083986216023930464
+--- !u!114 &6702287319673082247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,3 +139,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92aebdebdac028147962647942d56db9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectAmountText: {fileID: 4249123619943824048}
