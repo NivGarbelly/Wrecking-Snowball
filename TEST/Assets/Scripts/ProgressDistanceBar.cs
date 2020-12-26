@@ -28,7 +28,7 @@ public class ProgressDistanceBar : MonoBehaviour
     void Update()
     {
         
-        distance = Math.Abs(startingPoint.transform.position.x - endingPoint.transform.position.x);
+        distance = Math.Abs(startingPoint.transform.position.z - endingPoint.transform.position.z);
 
         PrograssBar();
         Won();

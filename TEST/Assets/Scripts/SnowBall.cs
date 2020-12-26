@@ -30,6 +30,7 @@ public class SnowBall : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            
             Destroy(collision.gameObject);
         }
     }
