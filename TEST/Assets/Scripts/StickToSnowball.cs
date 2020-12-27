@@ -21,25 +21,16 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         snowBall = other.gameObject;
 
         if (other.gameObject.CompareTag("Player"))
         {
-            Invoke("Stick", 0.25f);
+            fixJoint.connectedBody = snowBall.GetComponent<Rigidbody>();
 
         }
 
-    }
-
-    private void Stick()
-    {
-        fixJoint.connectedBody = snowBall.GetComponent<Rigidbody>();
     }
 
     public void UnStick()

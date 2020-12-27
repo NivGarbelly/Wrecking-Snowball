@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_TEST.300392888.00" t="ExcludeRecursive" />
-    <e p="C:\Users\User\OneDrive\מסמכים\GitHub\Wrecking-Snowball\TEST" t="IncludeRecursive">
+    <e p="C:\Users\NivGa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\NivGa\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TEST.-2068521780.00" t="ExcludeRecursive" />
+    <e p="C:\Users\NivGa\Desktop\Snowflake Games\Project in Procsses\Wrecking-Snowball\TEST" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -34,6 +34,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="FinishLevel.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="ProgressDistanceBar.cs" t="Include" />

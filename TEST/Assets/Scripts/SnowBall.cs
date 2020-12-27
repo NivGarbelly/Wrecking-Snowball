@@ -1,14 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class SnowBall : MonoBehaviour
 {
-    public float radius;
-    public float explotionForce;
     private Rigidbody _rigidbody;
     public float steerForce =2;
     public float speed=1;
     public float speedChangeForce = 0.01f;
     public FloatingJoystick variableJoystick;
+    public GameObject[] collect;
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class SnowBall : MonoBehaviour
         _rigidbody.AddForce(Vector3.forward * speed*2);
         speed = speed + speedChangeForce;
         transform.localScale = new Vector3(speed, speed, speed)/10;
-        _rigidbody.mass = speed;
+        _rigidbody.mass = speed/3;
         Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
         _rigidbody.AddForce(direction * steerForce * Time.fixedDeltaTime, ForceMode.VelocityChange);
     }
@@ -30,27 +30,27 @@ public class SnowBall : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            
-            Destroy(collision.gameObject);
+            speed = speed * 0.9f;
+        }
+
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            DestroyFun();
         }
     }
-    public void Destroy()
-    {
-        Debug.Log("die");
 
-        Collider[] stickObjects = Physics.OverlapSphere(transform.position, radius);
-        foreach (Collider objects in stickObjects)
+    private void DestroyFun()
+    {
+        collect = GameObject.FindGameObjectsWithTag("Collect");
+        foreach (var Obj in collect)
         {
-            objects.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
-            if (_rigidbody != null)
-            {
-                _rigidbody.AddExplosionForce(explotionForce, transform.position, radius);
-            }
+            Obj.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
         }
         Destroy(this.gameObject);
-    }
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(transform.position, radius);
     }
 }

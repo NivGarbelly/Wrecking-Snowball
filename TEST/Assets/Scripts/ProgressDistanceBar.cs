@@ -27,11 +27,12 @@ public class ProgressDistanceBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        distance = Math.Abs(startingPoint.transform.position.z - endingPoint.transform.position.z);
-
-        PrograssBar();
-        Won();
+        if (startingPoint!=null)
+        {
+            distance = Math.Abs(startingPoint.transform.position.z - endingPoint.transform.position.z);
+            PrograssBar();
+            Won();
+        }
     }
 
     void PrograssBar()
