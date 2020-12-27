@@ -9,6 +9,8 @@ public class SnowBall : MonoBehaviour
     public float speedChangeForce = 0.01f;
     public FloatingJoystick variableJoystick;
     public GameObject[] collect;
+    public int collectedObject = 0;
+    public GameManager gameManager;
 
     private void Awake()
     {
@@ -42,7 +44,16 @@ public class SnowBall : MonoBehaviour
         {
             DestroyFun();
         }
+
+        if (other.gameObject.CompareTag("Collect"))
+        {
+
+            collectedObject++;
+            gameManager.finishObjectAmount = collectedObject;
+        }
     }
+
+    
 
     private void DestroyFun()
     {

@@ -237,6 +237,8 @@ MonoBehaviour:
   speedChangeForce: 0.075
   variableJoystick: {fileID: 302970900}
   collect: []
+  collectedObject: 0
+  gameManager: {fileID: 1923906196}
 --- !u!54 &163342076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1339,6 +1341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249123619943824059, guid: be67bfa5b295e024e940f5ca6749378b,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be67bfa5b295e024e940f5ca6749378b, type: 3}
@@ -3502,7 +3509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464607955}
   m_LocalRotation: {x: 0.0009810426, y: -0, z: -0, w: 0.9999995}
-  m_LocalPosition: {x: 336.3, y: 8.9, z: -241.86}
+  m_LocalPosition: {x: 336.3, y: 8.9, z: -242.16}
   m_LocalScale: {x: 15.209, y: 6.12516, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3615,12 +3622,12 @@ PrefabInstance:
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.93
+      value: 7.219
       objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -316.38
+      value: -316.378
       objectReference: {fileID: 0}
     - target: {fileID: 4249123619943824052, guid: be67bfa5b295e024e940f5ca6749378b,
         type: 3}

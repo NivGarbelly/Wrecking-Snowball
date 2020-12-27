@@ -9,7 +9,7 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     private GameObject snowBall;
     private Rigidbody rb;
 
-    public GameObject objectAmountText;
+   
 
 
 
