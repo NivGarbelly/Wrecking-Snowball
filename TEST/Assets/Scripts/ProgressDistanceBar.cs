@@ -47,7 +47,7 @@ public class ProgressDistanceBar : MonoBehaviour
    
     void Won()
     {
-        if(distance <= 0.1f)
+        if(distance <= 3f)
         {
             won = true;
             slider.value = 1f;
