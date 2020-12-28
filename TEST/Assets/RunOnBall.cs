@@ -9,9 +9,5 @@ public class RunOnBall : MonoBehaviour
     void FixedUpdate()
     {
         transform.position = player.transform.position+ new Vector3(0,player.GetComponent<SnowBall>().speed/i, 0);
-        if (player==null)
-        {
-            Destroy(this.gameObject);
-        }
     }
 }

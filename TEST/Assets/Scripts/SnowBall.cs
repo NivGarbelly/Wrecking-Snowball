@@ -17,6 +17,7 @@ public class SnowBall : MonoBehaviour
     public Slider steerForceSlider; 
     public Slider speedChangeSlider;
     public bool isPaused = false;
+    public GameObject runOnBall;
     
     private void Awake()
     {
@@ -54,20 +55,13 @@ public class SnowBall : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Finish"))
         {
-            DestroyFun();
+            Destroy(runOnBall);
+            Destroy(this.gameObject);
         }
         if(other.gameObject.CompareTag("Collect"))
         {
          collects.Add(other.gameObject);
         }
-    }
-    private void DestroyFun()
-    {
-        foreach (var Obj in collects)
-        {
-            Obj.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
-        }
-        Destroy(this.gameObject);
     }
     public void SpeedChangeReset()
     {

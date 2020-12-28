@@ -2411,6 +2411,7 @@ MonoBehaviour:
   steerForceSlider: {fileID: 2134111747}
   speedChangeSlider: {fileID: 2134111746}
   isPaused: 0
+  runOnBall: {fileID: 939378876}
 --- !u!54 &163342076
 Rigidbody:
   m_ObjectHideFlags: 0
