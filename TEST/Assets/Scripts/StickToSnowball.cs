@@ -65,6 +65,5 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
         fixJoint.breakTorque = 10f;
         var col = GetComponent<Collider>();
         col.isTrigger = false;
-        
     }
 }
