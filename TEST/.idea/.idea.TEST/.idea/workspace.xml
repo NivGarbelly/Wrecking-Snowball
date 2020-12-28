@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +21,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Dor.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collects.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,7 +34,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +100,9 @@
       <workItem from="1609073859982" duration="5551000" />
       <workItem from="1609153808836" duration="3186000" />
       <workItem from="1609157084532" duration="119000" />
+      <workItem from="1609162978024" duration="1110000" />
+      <workItem from="1609172289985" duration="3320000" />
+      <workItem from="1609175855167" duration="2209000" />
     </task>
     <servers />
   </component>

@@ -1,48 +1,77 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using BayatGames.SaveGameFree;
 
 public class GameManager : MonoBehaviour
 {
-
-    [SerializeField] bool gameIsWon;
-    [SerializeField] bool gameIsLost;
-
-    public GameObject objectCollectedText;
     public GameObject completeLevel;
-    public GameObject player;
-    public GameObject finishObjectCollectedText;
-
-    public int finishObjectAmount;
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        objectCollectedText.GetComponent<Text>().text = finishObjectAmount.ToString();
-    }
-
+    public int score;
+    public int highScore;
+    public int collect;
+    public SnowBall player;
+    public Text scoreText;
+    public Text highScoreText;
+    public Text collectsText;
+    public int collectsMoney;
     public void GameWon()
     {
-        objectCollectedText.SetActive(false);
-        
         Invoke("ShowWinText", 2f);
+    }
+
+    private void Awake()
+    {
+        highScore = SaveGame.Load<int>("highScore");
+    }
+
+    public void Update()
+    {
+        collectsMoney = SaveGame.Load<int>("collect");
+        collectsText.text = "Collects: " + collectsMoney+player.collects.Count;
+        if (player!=null)
+        {
+            score = (int) player.speed;
+        }
+        scoreText.text = "Score: " + score;
+        highScoreText.text = "High Score: " + highScore;
+        if (score>highScore)
+        {
+            highScore = score;
+            SaveGame.Save<int>("highScore",highScore);
+        }
+
+        if (player == null)
+        {
+            for (int i = 0; i == 1; i++)
+            {
+                collectsMoney = collectsMoney+player.collects.Count;
+                SaveGame.Save<int>("collect", collectsMoney);
+            }
+        }
     }
 
     void ShowWinText()
     {
-
         completeLevel.SetActive(true);
-        finishObjectCollectedText.SetActive(true);
-        finishObjectCollectedText.GetComponent<Text>().text = "Score: " + finishObjectAmount.ToString();
+    }
+
+    public void X2()
+    {
+        score = score * 2;
+    }
+    public void X3()
+    {
+        score = score * 3;
+    }
+    public void X4()
+    {
+        score = score * 4;
+    }
+    public void X5()
+    {
+        score = score * 5;
+    }
+    public void X6()
+    {
+        score = score * 6;
     }
 }

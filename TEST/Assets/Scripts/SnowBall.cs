@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using BayatGames.SaveGameFree;
 
 public class SnowBall : MonoBehaviour
 {
@@ -11,12 +11,14 @@ public class SnowBall : MonoBehaviour
     public float speed=1;
     public float speedChangeForce = 0.075f;
     public FloatingJoystick variableJoystick;
-    public GameObject[] collect;
+    public List<GameObject> collects;
     public Text steerForceText;
     public Text speedChangeText;
     public Slider steerForceSlider; 
     public Slider speedChangeSlider;
     public bool isPaused = false;
+
+  
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -36,11 +38,12 @@ public class SnowBall : MonoBehaviour
     }
     public void Update()
     {
+       
+        speedChangeText.text = speedChangeForce.ToString();
+        speedChangeForce = speedChangeSlider.value;
+        steerForceText.text = steerForce.ToString();
+        steerForce = steerForceSlider.value;
         
-            speedChangeText.text = speedChangeForce.ToString();
-            speedChangeForce = speedChangeSlider.value;
-            steerForceText.text = steerForce.ToString();
-            steerForce = steerForceSlider.value;   
         
     }
     private void OnCollisionEnter(Collision collision)
@@ -56,14 +59,19 @@ public class SnowBall : MonoBehaviour
         {
             DestroyFun();
         }
+        if(other.gameObject.CompareTag("Collect"))
+        {
+         collects.Add(other.gameObject);
+        }
     }
     private void DestroyFun()
     {
-        collect = GameObject.FindGameObjectsWithTag("Collect");
-        foreach (var Obj in collect)
+        foreach (var Obj in collects)
         {
             Obj.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
         }
+
+        
         Destroy(this.gameObject);
     }
     public void SpeedChangeReset()
@@ -86,5 +94,26 @@ public class SnowBall : MonoBehaviour
     public void IsPausedTrue()
     {
         isPaused = true;
+    }
+
+    public static void X2()
+    {
+        
+    }
+    public static void X3()
+    {
+        
+    }
+    public static void X4()
+    {
+        
+    }
+    public static void X5()
+    {
+        
+    }
+    public static void X6()
+    {
+        
     }
 }
