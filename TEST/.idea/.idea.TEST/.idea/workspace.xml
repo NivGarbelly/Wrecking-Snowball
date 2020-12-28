@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HxVolumetricLighting/Scripts.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niv.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Niv.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Snowy_Low_Poly_Trees/Materials/Snow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Snowy_Low_Poly_Trees/Materials/Snow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +19,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Dor.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -33,6 +28,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ProgressDistanceBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" />
       </list>
     </option>
@@ -93,6 +89,7 @@
       <workItem from="1608899673267" duration="891000" />
       <workItem from="1608900691972" duration="789000" />
       <workItem from="1609073859982" duration="5551000" />
+      <workItem from="1609153808836" duration="3186000" />
     </task>
     <servers />
   </component>
@@ -103,5 +100,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609156695359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609156695359" />
   </component>
 </project>
