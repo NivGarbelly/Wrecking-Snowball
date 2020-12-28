@@ -35429,10 +35429,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758705317955820358, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_Value
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705317955820358, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705318344437937, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705318987276188, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1923906196}
+    - target: {fileID: 7758705318987276188, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 7758705319007036828, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
