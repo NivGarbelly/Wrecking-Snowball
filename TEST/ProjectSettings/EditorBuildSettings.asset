@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dor 2.unity
+    guid: bfc60bd3b277e164d929caeb23a87b49
   m_configObjects: {}

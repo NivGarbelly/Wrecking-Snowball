@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using BayatGames.SaveGameFree;
 
 public class SnowBall : MonoBehaviour
 {
@@ -18,9 +17,12 @@ public class SnowBall : MonoBehaviour
     public Slider speedChangeSlider;
     public bool isPaused = false;
     public GameObject runOnBall;
+    public GameManager gameManager;
+    public ParticleSystem particleSystem;
     
     private void Awake()
     {
+        gameManager = FindObjectOfType<GameManager>();
         _rigidbody = GetComponent<Rigidbody>();
         speed=1;
     }
@@ -55,6 +57,8 @@ public class SnowBall : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Finish"))
         {
+            gameManager.SaveCollect();
+            Instantiate(particleSystem, transform.position,new Quaternion(0,0,0,0));
             Destroy(runOnBall);
             Destroy(this.gameObject);
         }
@@ -63,6 +67,8 @@ public class SnowBall : MonoBehaviour
          collects.Add(other.gameObject);
         }
     }
+    
+
     public void SpeedChangeReset()
     {
         speedChangeSlider.value = 0.075f;

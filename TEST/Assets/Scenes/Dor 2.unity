@@ -2412,6 +2412,9 @@ MonoBehaviour:
   speedChangeSlider: {fileID: 2134111746}
   isPaused: 0
   runOnBall: {fileID: 939378876}
+  gameManager: {fileID: 1923906196}
+  particleSystem: {fileID: 2825796082506484814, guid: b4b806581697d424398d57ce304f16d3,
+    type: 3}
 --- !u!54 &163342076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35319,6 +35322,16 @@ PrefabInstance:
       propertyPath: startingPoint
       value: 
       objectReference: {fileID: 163342074}
+    - target: {fileID: 7758705317584949083, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 163342075}
+    - target: {fileID: 7758705317584949083, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpeedChangeReset
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705317781397838, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: m_Pivot.x
@@ -35444,6 +35457,16 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7758705318688610044, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 963194229}
+    - target: {fileID: 7758705318688610044, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetButton
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705318987276188, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -35478,6 +35501,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705319166286474, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 163342075}
+    - target: {fileID: 7758705319166286474, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SteerForceReset
       objectReference: {fileID: 0}
     - target: {fileID: 7758705319533765288, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}

@@ -22,12 +22,12 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         highScore = SaveGame.Load<int>("highScore");
+        collectsMoney = SaveGame.Load<int>("collect");
     }
 
     public void Update()
     {
-        collectsMoney = SaveGame.Load<int>("collect");
-        collectsText.text = "Collects: " + collectsMoney+player.collects.Count;
+        collectsText.text = "Collects: " + (collectsMoney + player.collects.Count).ToString();
         if (player!=null)
         {
             score = (int) player.speed;
@@ -38,15 +38,6 @@ public class GameManager : MonoBehaviour
         {
             highScore = score;
             SaveGame.Save<int>("highScore",highScore);
-        }
-
-        if (player == null)
-        {
-            for (int i = 0; i == 1; i++)
-            {
-                collectsMoney = collectsMoney+player.collects.Count;
-                SaveGame.Save<int>("collect", collectsMoney);
-            }
         }
     }
 
@@ -78,5 +69,11 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void SaveCollect()
+    {
+        collectsMoney = player.collects.Count + collectsMoney;
+        SaveGame.Save<int>("collect", collectsMoney);
     }
 }
