@@ -17,6 +17,8 @@ public class SnowBall : MonoBehaviour
     public Slider steerForceSlider; 
     public Slider speedChangeSlider;
     public bool isPaused = false;
+
+    
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
