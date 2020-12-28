@@ -35096,6 +35096,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2124746534224380868, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 291.3747
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124746534224380868, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819612042662152698, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 291.3747
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819612042662152698, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489324363872312025, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_Name
+      value: HighScore
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705317526182989, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: slider

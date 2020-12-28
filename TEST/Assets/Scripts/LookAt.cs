@@ -26,9 +26,12 @@ public class LookAt : MonoBehaviour
 
     private void Update()
     {
-        offset.x = xSlider.value;
-        offset.y = ySlider.value;
-        offset.z = zSlider.value;
+        if (player != null)
+        {
+            offset.x = xSlider.value;
+            offset.y = ySlider.value;
+            offset.z = zSlider.value;   
+        }
         xText.text = offset.x.ToString();
         yText.text = offset.y.ToString();
         zText.text = offset.z.ToString();

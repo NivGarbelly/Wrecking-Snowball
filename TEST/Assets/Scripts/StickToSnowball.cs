@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -46,6 +47,14 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
         if (other.gameObject.name=="X6")
         {
             gameManager.X6();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            this.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
         }
     }
 
