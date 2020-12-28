@@ -2,12 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/Grass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Materials/Grass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Base.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Base.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Caravan_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Caravan_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Church_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Church_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Electric_cable.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Electric_cable.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Electric_pole.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Electric_pole.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Grass_3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Ground.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Ground.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/House_3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/05 - Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/05 - Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Gnd.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Gnd.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Materials/Texture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Road_sign1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Road_sign1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_4.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Rock_4.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_4.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Tree_4.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Water.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Water.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Wc.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Wc.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Well1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Well1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Wooden_barrel.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Meshes/Wooden_barrel.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Gnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Gnd.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Art/Textures/Texture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Demo_scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Demo_scene/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Demo_scene/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/PostProcessingprofiles/Profile3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Base.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Base.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Caravan_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Church_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Church_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Electric_cable.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Electric_pole.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Electric_pole.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Grass_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Ground.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Ground.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/House_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Road_sign1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Road_sign1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Rock_4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Tree_4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Water.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Wc.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Wc.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Well1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Prefabs/Wooden_barrel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Low_Poly_Mini_Village/Skyboxes/Sky3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/HxVolumetricLighting/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Buggy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Buggy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Partical.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Partical.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gift 3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gift 3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gift 4 .prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gift 4 .prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Xmas_Tree.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Xmas_Tree.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Xmas_bell.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Xmas_bell.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dor 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Dor 2.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Materials/Color Pallet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Materials/Color Pallet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Small Terrrain 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Small Terrrain 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Terrain 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Free Vegetation Pack/Prefabs/Terrain 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +260,7 @@
       <workItem from="1609157084532" duration="119000" />
       <workItem from="1609162978024" duration="1110000" />
       <workItem from="1609172289985" duration="3320000" />
-      <workItem from="1609175855167" duration="2209000" />
+      <workItem from="1609175855167" duration="2289000" />
     </task>
     <servers />
   </component>

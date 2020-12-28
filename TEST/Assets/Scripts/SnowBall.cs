@@ -17,8 +17,7 @@ public class SnowBall : MonoBehaviour
     public Slider steerForceSlider; 
     public Slider speedChangeSlider;
     public bool isPaused = false;
-
-  
+    
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -43,8 +42,6 @@ public class SnowBall : MonoBehaviour
         speedChangeForce = speedChangeSlider.value;
         steerForceText.text = steerForce.ToString();
         steerForce = steerForceSlider.value;
-        
-        
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -70,8 +67,6 @@ public class SnowBall : MonoBehaviour
         {
             Obj.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
         }
-
-        
         Destroy(this.gameObject);
     }
     public void SpeedChangeReset()
@@ -94,26 +89,5 @@ public class SnowBall : MonoBehaviour
     public void IsPausedTrue()
     {
         isPaused = true;
-    }
-
-    public static void X2()
-    {
-        
-    }
-    public static void X3()
-    {
-        
-    }
-    public static void X4()
-    {
-        
-    }
-    public static void X5()
-    {
-        
-    }
-    public static void X6()
-    {
-        
     }
 }
