@@ -6,14 +6,14 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
 {
 
     private FixedJoint fixJoint;
-    private GameObject snowBall;
     private Rigidbody rb;
+    private GameManager gameManager;
 
-   
-
-
-
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        gameManager = FindObjectOfType<GameManager>();
+    }
+    
     void Start()
     {
         fixJoint = GetComponent<FixedJoint>();
@@ -23,14 +23,30 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        snowBall = other.gameObject;
-
         if (other.gameObject.CompareTag("Player"))
         {
-            fixJoint.connectedBody = snowBall.GetComponent<Rigidbody>();
-
+            fixJoint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
         }
-
+        if (other.gameObject.name=="X2")
+        {
+            gameManager.X2();
+        }
+        if (other.gameObject.name=="X3")
+        {
+            gameManager.X3();
+        }
+        if (other.gameObject.name=="X4")
+        {
+            gameManager.X4();
+        }
+        if (other.gameObject.name=="X5")
+        {
+            gameManager.X5();
+        }
+        if (other.gameObject.name=="X6")
+        {
+            gameManager.X6();
+        }
     }
 
     public void UnStick()
