@@ -37,6 +37,7 @@
           <e p="FinishLevel.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
+          <e p="Obstacle.cs" t="Include" />
           <e p="ProgressDistanceBar.cs" t="Include" />
           <e p="SnowBall.cs" t="Include" />
           <e p="StickToSnowball.cs" t="Include" />

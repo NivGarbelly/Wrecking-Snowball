@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HxVolumetricLighting/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +86,7 @@
       <workItem from="1608900691972" duration="789000" />
       <workItem from="1609073859982" duration="5551000" />
       <workItem from="1609153808836" duration="3186000" />
+      <workItem from="1609157084532" duration="119000" />
     </task>
     <servers />
   </component>
