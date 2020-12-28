@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +99,7 @@
       <workItem from="1609162978024" duration="1110000" />
       <workItem from="1609172289985" duration="3320000" />
       <workItem from="1609175855167" duration="2289000" />
-      <workItem from="1609178224504" duration="1407000" />
+      <workItem from="1609178224504" duration="1669000" />
     </task>
     <servers />
   </component>

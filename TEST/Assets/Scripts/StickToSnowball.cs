@@ -54,13 +54,12 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            this.gameObject.GetComponent<StickObjects_INT>()?.UnStick();
+            UnStick();
         }
     }
 
     public void UnStick()
     {
-        Debug.Log("work");
         rb.mass = 1f;
         fixJoint.breakForce = 10f;
         fixJoint.breakTorque = 10f;
