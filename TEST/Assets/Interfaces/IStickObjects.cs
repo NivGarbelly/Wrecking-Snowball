@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface StickObjects_INT
+public interface IStickObjects
 {
     void UnStick();
 }

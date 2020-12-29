@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StickToSnowball : MonoBehaviour, StickObjects_INT
+public class StickToSnowball : MonoBehaviour, IStickObjects
 {
 
     private FixedJoint fixJoint;
@@ -60,10 +60,14 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
 
     public void UnStick()
     {
-        rb.mass = 1f;
-        fixJoint.breakForce = 10f;
-        fixJoint.breakTorque = 10f;
-        var col = GetComponent<Collider>();
-        col.isTrigger = false;
+        if (fixJoint != null)
+        {
+            rb.mass = 1f;
+            fixJoint.breakForce = 10f;
+            fixJoint.breakTorque = 10f;
+            var col = GetComponent<Collider>();
+            col.isTrigger = false;
+        }
+       
     }
 }

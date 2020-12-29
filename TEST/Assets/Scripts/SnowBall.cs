@@ -57,6 +57,11 @@ public class SnowBall : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Finish"))
         {
+            foreach (GameObject collectibles in collects)
+            {
+                collectibles.gameObject.GetComponent<IStickObjects>()?.UnStick();
+            }
+
             gameManager.SaveCollect();
             Instantiate(particleSystem, transform.position,new Quaternion(0,0,0,0));
             Destroy(runOnBall);
