@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd6e799b-21f0-456d-80df-03f0dc265879" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TEST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/HxVolumetricLighting/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RunOnBall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RunOnBall.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dor 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dor 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/RunOnBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinishLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,10 +42,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
         <option value="$PROJECT_DIR$/Assets/RunOnBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StickToSnowball.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnowBall.cs" />
       </list>
     </option>
@@ -113,7 +113,8 @@
       <workItem from="1609175855167" duration="2289000" />
       <workItem from="1609178224504" duration="4611000" />
       <workItem from="1609183657413" duration="1365000" />
-      <workItem from="1609185073354" duration="788000" />
+      <workItem from="1609185073354" duration="893000" />
+      <workItem from="1609262275180" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -126,9 +127,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609156695359">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609263063096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609156695359" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609263063096" />
   </component>
 </project>

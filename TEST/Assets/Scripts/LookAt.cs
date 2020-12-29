@@ -18,9 +18,11 @@ public class LookAt : MonoBehaviour
     private void LateUpdate()
     {
         if (player != null)
-        { Vector3 desiredPos = player.position + offset;
+        { 
+         Vector3 desiredPos = player.position + offset;
          Vector3 smoothedPos = Vector3.Lerp(transform.position, desiredPos, smooth);
          transform.position = smoothedPos;
+         transform.LookAt(player.transform.position);
         }
     }
 
