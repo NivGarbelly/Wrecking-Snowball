@@ -2,6 +2,9 @@
 using UnityEngine.UI;
 using BayatGames.SaveGameFree;
 using UnityEngine.SceneManagement;
+using Unity.Collections.LowLevel.Unsafe;
+using System.Collections.Generic;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,9 +17,12 @@ public class GameManager : MonoBehaviour
     public Text highScoreText;
     public Text collectsText;
     public int collectsMoney;
+
+    public List<int> nums = new List<int>();
     public void GameWon()
     {
-        Invoke("ShowWinText", 2f);
+       
+        Invoke("ShowWinText", 3f);
     }
 
     private void Awake()
@@ -32,7 +38,7 @@ public class GameManager : MonoBehaviour
         {
             score = (int) player.speed;
         }
-        scoreText.text = "Score: " + score;
+        scoreText.text = score.ToString();
         highScoreText.text = "High Score: " + highScore;
         if (score>highScore)
         {
@@ -43,29 +49,32 @@ public class GameManager : MonoBehaviour
 
     void ShowWinText()
     {
+        score = score * nums.Max();
         completeLevel.SetActive(true);
     }
 
-    public void X2()
+    public void X2(int num)
     {
-        score = score * 2;
+        nums.Add(num);
     }
-    public void X3()
+    public void X3(int num)
     {
-        score = score * 3;
+        nums.Add(num);
     }
-    public void X4()
+    public void X4(int num)
     {
-        score = score * 4;
+        nums.Add(num);
     }
-    public void X5()
+    public void X5(int num)
     {
-        score = score * 5;
+        nums.Add(num);
     }
-    public void X6()
+    public void X6(int num)
     {
-        score = score * 6;
+        nums.Add(num);
     }
+
+    
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -30,23 +30,23 @@ public class StickToSnowball : MonoBehaviour, StickObjects_INT
         }
         if (other.gameObject.name=="X2")
         {
-            gameManager.X2();
+            gameManager.X2(2);
         }
         if (other.gameObject.name=="X3")
         {
-            gameManager.X3();
+            gameManager.X3(3);
         }
         if (other.gameObject.name=="X4")
         {
-            gameManager.X4();
+            gameManager.X4(4);
         }
         if (other.gameObject.name=="X5")
         {
-            gameManager.X5();
+            gameManager.X5(5);
         }
         if (other.gameObject.name=="X6")
         {
-            gameManager.X6();
+            gameManager.X6(6);
         }
     }
 
