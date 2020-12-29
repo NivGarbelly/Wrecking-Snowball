@@ -20,6 +20,7 @@ public class StickToSnowball : MonoBehaviour, IStickObjects
         fixJoint = GetComponent<FixedJoint>();
         rb = GetComponent<Rigidbody>();
     }
+    
 
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)

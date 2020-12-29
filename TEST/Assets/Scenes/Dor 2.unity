@@ -35384,6 +35384,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7758705317771383911, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MinValue
+      value: -60
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705317781397838, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: m_Pivot.x
@@ -35509,6 +35514,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758705317857376377, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705317857376377, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MinValue
+      value: -60
+      objectReference: {fileID: 0}
     - target: {fileID: 7758705317888410069, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -35623,6 +35638,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705318826732266, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758705318826732266, guid: 6278f3ee456045042a50fe74ffa85592,
+        type: 3}
+      propertyPath: m_MinValue
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7758705318987276188, guid: 6278f3ee456045042a50fe74ffa85592,
         type: 3}
